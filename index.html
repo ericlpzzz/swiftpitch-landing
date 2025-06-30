@@ -10,7 +10,7 @@
   <body class="bg-white text-gray-900 font-sans">
     <!-- Hero -->
     <section class="text-center px-6 py-20 bg-gradient-to-br from-[#0a1128] to-[#007c91] text-white">
-      <img src="https://via.placeholder.com/150x50?text=Logo" alt="SwiftPitch Logo" class="mx-auto mb-6" />
+      <img src="https://via.placeholder.com/160x50?text=SwiftPitch+Logo" alt="SwiftPitch Logo" class="mx-auto mb-6" />
       <h1 class="text-4xl md:text-5xl font-bold">Win More Jobs. Write Less.</h1>
       <p class="mt-4 text-xl max-w-xl mx-auto">SwiftPitch creates AI-powered freelance proposals that get noticed.</p>
       <a href="#pricing" class="mt-8 inline-block bg-white text-[#007c91] font-semibold px-6 py-3 rounded shadow hover:bg-gray-100">Try It Free</a>
@@ -20,9 +20,18 @@
     <section class="py-20 px-6 bg-gray-50 text-center">
       <h2 class="text-2xl font-bold mb-10">Why SwiftPitch?</h2>
       <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-        <div><span class="text-3xl">⚡</span><h3 class="font-semibold mt-3">Instant AI-generated proposals</h3></div>
-        <div><span class="text-3xl">🎯</span><h3 class="font-semibold mt-3">Personalized to your resume, tone & niche</h3></div>
-        <div><span class="text-3xl">🌍</span><h3 class="font-semibold mt-3">Built for Upwork & Freelancer.com</h3></div>
+        <div>
+          <img src="https://img.icons8.com/ios/50/000000/lightning-bolt--v1.png" alt="Instant Proposals" class="mx-auto mb-4 w-8" />
+          <h3 class="font-semibold">Instant AI-generated proposals</h3>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/ios/50/000000/settings--v1.png" alt="Personalized" class="mx-auto mb-4 w-8" />
+          <h3 class="font-semibold">Personalized to your resume, tone & niche</h3>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/ios/50/000000/internet.png" alt="Platforms" class="mx-auto mb-4 w-8" />
+          <h3 class="font-semibold">Built for Upwork & Freelancer.com</h3>
+        </div>
       </div>
     </section>
 
@@ -30,9 +39,18 @@
     <section class="py-20 px-6 bg-white text-center" id="how-it-works">
       <h2 class="text-2xl font-bold mb-10">How It Works</h2>
       <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-        <div><span class="text-3xl">🔗</span><h3 class="mt-3 font-semibold">Paste job URL</h3></div>
-        <div><span class="text-3xl">📄</span><h3 class="mt-3 font-semibold">Upload resume or LinkedIn</h3></div>
-        <div><span class="text-3xl">⚙️</span><h3 class="mt-3 font-semibold">Get smart proposal instantly</h3></div>
+        <div>
+          <h3 class="mt-3 font-semibold text-lg">1. Paste the job URL</h3>
+          <p class="mt-2 text-gray-600">From Upwork, Freelancer.com or similar platforms.</p>
+        </div>
+        <div>
+          <h3 class="mt-3 font-semibold text-lg">2. Upload your resume</h3>
+          <p class="mt-2 text-gray-600">Or import your LinkedIn profile.</p>
+        </div>
+        <div>
+          <h3 class="mt-3 font-semibold text-lg">3. Get an instant AI proposal</h3>
+          <p class="mt-2 text-gray-600">Smart, tailored, and ready to send.</p>
+        </div>
       </div>
     </section>
 
@@ -40,37 +58,59 @@
     <section class="py-20 px-6 bg-gray-50 text-center" id="pricing">
       <h2 class="text-2xl font-bold mb-10">Pricing</h2>
       <div class="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-        <div class="border p-6 bg-white rounded">
+        <div class="border p-6 bg-white rounded shadow">
           <h3 class="font-semibold text-lg">Freemium</h3>
-          <p class="mt-2">3 proposals/month</p>
+          <p class="mt-2 text-gray-700">Try 3 proposals/month</p>
           <p class="font-bold text-xl mt-4">Free</p>
-          <a href="#" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
+          <a href="#subscribe" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
         </div>
-        <div class="border p-6 bg-white rounded">
+        <div class="border p-6 bg-white rounded shadow">
           <h3 class="font-semibold text-lg">Starter</h3>
-          <p class="mt-2">15 proposals/month, save history</p>
+          <p class="mt-2 text-gray-700">15 proposals/month</p>
+          <ul class="mt-2 text-sm text-gray-600 list-disc list-inside">
+            <li>Save proposal history</li>
+            <li>Email support</li>
+          </ul>
           <p class="font-bold text-xl mt-4">€7.99</p>
-          <a href="#" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
+          <a href="#subscribe" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
         </div>
-        <div class="border p-6 bg-white rounded">
+        <div class="border p-6 bg-white rounded shadow">
           <h3 class="font-semibold text-lg">Pro</h3>
-          <p class="mt-2">50 proposals, tone & analytics</p>
+          <p class="mt-2 text-gray-700">50 proposals/month</p>
+          <ul class="mt-2 text-sm text-gray-600 list-disc list-inside">
+            <li>Tone control</li>
+            <li>Analytics & tracking</li>
+          </ul>
           <p class="font-bold text-xl mt-4">€19.99</p>
-          <a href="#" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
+          <a href="#subscribe" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
         </div>
-        <div class="border p-6 bg-white rounded">
+        <div class="border p-6 bg-white rounded shadow">
           <h3 class="font-semibold text-lg">Agency</h3>
-          <p class="mt-2">200 proposals, multi-profile</p>
+          <p class="mt-2 text-gray-700">200 proposals/month</p>
+          <ul class="mt-2 text-sm text-gray-600 list-disc list-inside">
+            <li>Multi-profile support</li>
+            <li>White-label export</li>
+          </ul>
           <p class="font-bold text-xl mt-4">€49.99</p>
-          <a href="#" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
+          <a href="#subscribe" class="mt-6 inline-block bg-[#007c91] text-white px-4 py-2 rounded hover:bg-[#005f6b]">Get Started</a>
         </div>
       </div>
     </section>
 
+    <!-- Email CTA -->
+    <section id="subscribe" class="py-20 px-6 bg-white text-center">
+      <h2 class="text-2xl font-bold mb-4"> Be the first to try SwiftPitch</h2>
+      <p class="text-gray-600 mb-6 max-w-xl mx-auto">Leave your email and we’ll invite you to our private beta when it's ready.</p>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfzFILLMEIN/fake-form-url/formResponse" method="POST" target="_blank" class="max-w-md mx-auto">
+        <input type="email" name="entry.YOUR_FIELD_ID_HERE" required placeholder="Enter your email" class="w-full px-4 py-3 rounded border border-gray-300 focus:ring-2 focus:ring-[#007c91] focus:outline-none" />
+        <button type="submit" class="mt-4 bg-[#007c91] text-white px-6 py-3 rounded hover:bg-[#005f6b]">Notify Me</button>
+      </form>
+    </section>
+
     <!-- Footer -->
-    <footer class="py-10 text-center text-sm bg-white text-gray-600">
-      <p>Questions or feedback? DM us on Reddit: <a href="#" class="text-[#007c91] underline">u/yourusername</a></p>
-      <p class="mt-2"><a href="#" class="underline">Terms</a> · <a href="#" class="underline">Privacy</a> · <a href="mailto:hello@swiftpitch.ai">hello@swiftpitch.ai</a></p>
+    <footer class="py-10 text-center text-sm bg-gray-100 text-gray-600">
+      <p>Want to chat? DM us on Reddit: <a href="https://reddit.com/u/Wizlea" class="text-[#007c91] underline">u/Wizlea</a></p>
+      <p class="mt-2"><a href="#" class="underline">Terms</a> · <a href="#" class="underline">Privacy</a></p>
     </footer>
   </body>
 </html>
