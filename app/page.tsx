@@ -111,13 +111,29 @@ export default function Home() {
           </div>
         </div>
       </section>
+<section className="bg-white py-16 px-6">
+  <div className="max-w-3xl mx-auto text-center">
+    <blockquote className="text-xl italic text-gray-700 mb-6">
+      “I used to spend 30–40 minutes writing each proposal. SwiftPitch cuts that down to seconds — and the responses feel better, too.”
+    </blockquote>
+    <p className="font-semibold text-gray-900">— Dominique, Freelancer · Saint Louis, MO</p>
+  </div>
+</section>
 
       {/* CTA */}
-      <section className="py-16 px-6 text-center">
-        <h2 className="text-2xl font-semibold mb-4">Got questions or feedback?</h2>
-        <p className="text-gray-600">DM us on Reddit at <a href="https://reddit.com/u/Wizlea" className="text-brand underline">u/Wizlea</a></p>
-        <p className="mt-4 text-sm text-gray-500">Want beta access? <a href="https://tally.so/r/w5Ye2M" className="underline">Sign up here</a>.</p>
-      </section>
-    </main>
-  );
-}
+  <section className="py-16 px-6 text-center">
+  <h2 className="text-2xl font-semibold mb-4">Got questions or feedback?</h2>
+  <p className="text-gray-600">DM us on Reddit at <a href="https://reddit.com/u/Wizlea" className="text-brand underline">u/Wizlea</a></p>
+
+  <div className="mt-10 max-w-xl mx-auto">
+    <h3 className="text-lg font-semibold mb-2">Join the Beta Waitlist</h3>
+    <iframe
+      data-tally-src="https://tally.so/embed/w5Ye2M?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+      loading="lazy"
+      width="100%"
+      height="200"
+      className="rounded-lg border"
+      title="SwiftPitch Waitlist"
+    ></iframe>
+  </div>
+</section>
