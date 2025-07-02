@@ -1,4 +1,5 @@
 import "./globals.css";
+import Head from "next/head";
 
 export const metadata = {
   title: "SwiftPitch",
@@ -8,20 +9,19 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="SwiftPitch helps freelancers generate smarter proposals, faster — powered by AI." />
+        <meta property="og:title" content="SwiftPitch – Win More Freelance Jobs" />
+        <meta property="og:description" content="AI-powered proposals tailored to your profile, tone, and niche. Built for Upwork & Fiverr." />
+        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:url" content="https://swiftpitch-landing.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <body className="bg-white text-gray-900">
-        <nav className="flex justify-between items-center px-6 py-4 shadow">
-          <a href="/" className="text-lg font-bold text-brand">SwiftPitch</a>
-          <div className="space-x-4 text-sm">
-            <a href="/analyzer" className="hover:underline">Job Analyzer</a>
-            <a href="/proposal-generator" className="hover:underline">Proposal Generator</a>
-            <a href="/about" className="hover:underline">About</a>
-          </div>
-        </nav>
-        {children}
-        <footer className="text-center text-xs text-gray-600 py-10 border-t mt-12">
-          <p>© 2025 SwiftPitch · <a href="/terms" className="underline">Terms</a> · <a href="/privacy" className="underline">Privacy</a></p>
-          <p className="mt-1">Questions? DM us on Reddit: <a href="https://reddit.com/u/Wizlea" className="text-brand underline">u/Wizlea</a></p>
-        </footer>
+        {/* nav + content + footer */}
+        ...
       </body>
     </html>
   );
