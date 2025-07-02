@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Smooth base styling */
+:root {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
 body {
-  @apply bg-white text-gray-900 font-sans antialiased;
-}
-
-h1, h2, h3 {
-  @apply font-semibold text-gray-900;
-}
-
-a {
-  @apply transition-colors duration-200;
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #111827;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
