@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth base styling */
 body {
-  font-family: system-ui, sans-serif;
+  @apply bg-white text-gray-900 font-sans antialiased;
+}
+
+h1, h2, h3 {
+  @apply font-semibold text-gray-900;
+}
+
+a {
+  @apply transition-colors duration-200;
 }
